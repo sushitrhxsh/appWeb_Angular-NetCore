@@ -1,0 +1,15 @@
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.Model\bin\Debug\net7.0\SistVentAN.Model.deps.json
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.Model\bin\Debug\net7.0\SistVentAN.Model.runtimeconfig.json
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.Model\bin\Debug\net7.0\SistVentAN.Model.dll
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.Model\bin\Debug\net7.0\SistVentAN.Model.pdb
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.Model\obj\Debug\net7.0\SistVentAN.Model.csproj.AssemblyReference.cache
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.Model\obj\Debug\net7.0\SistVentAN.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.Model\obj\Debug\net7.0\SistVentAN.Model.AssemblyInfoInputs.cache
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.Model\obj\Debug\net7.0\SistVentAN.Model.AssemblyInfo.cs
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.Model\obj\Debug\net7.0\SistVentAN.Model.csproj.CoreCompileInputs.cache
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.Model\obj\Debug\net7.0\SistVentAN.Model.sourcelink.json
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.Model\obj\Debug\net7.0\SistVentAN.Model.dll
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.Model\obj\Debug\net7.0\refint\SistVentAN.Model.dll
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.Model\obj\Debug\net7.0\SistVentAN.Model.pdb
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.Model\obj\Debug\net7.0\SistVentAN.Model.genruntimeconfig.cache
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.Model\obj\Debug\net7.0\ref\SistVentAN.Model.dll

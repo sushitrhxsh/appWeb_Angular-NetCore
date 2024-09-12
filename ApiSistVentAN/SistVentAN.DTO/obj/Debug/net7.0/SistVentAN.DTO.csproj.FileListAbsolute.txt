@@ -1,0 +1,12 @@
+C:\Users\Alex FS\Documents\programacion\.net\Angular\APISistVentAN\SistVentAN.DTO\bin\Debug\net7.0\SistVentAN.DTO.deps.json
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.DTO\bin\Debug\net7.0\SistVentAN.DTO.dll
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.DTO\bin\Debug\net7.0\SistVentAN.DTO.pdb
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.DTO\obj\Debug\net7.0\SistVentAN.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.DTO\obj\Debug\net7.0\SistVentAN.DTO.AssemblyInfoInputs.cache
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.DTO\obj\Debug\net7.0\SistVentAN.DTO.AssemblyInfo.cs
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.DTO\obj\Debug\net7.0\SistVentAN.DTO.csproj.CoreCompileInputs.cache
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.DTO\obj\Debug\net7.0\SistVentAN.DTO.sourcelink.json
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.DTO\obj\Debug\net7.0\SistVentAN.DTO.dll
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.DTO\obj\Debug\net7.0\refint\SistVentAN.DTO.dll
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.DTO\obj\Debug\net7.0\SistVentAN.DTO.pdb
+C:\Users\Alex FS\Documents\programacion\.net\Angular\APISistVentAN\SistVentAN.DTO\obj\Debug\net7.0\ref\SistVentAN.DTO.dll

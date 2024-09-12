@@ -11,4 +11,10 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SistVentAN.BLL\SistVentAN.BLL.csproj" />
+    <ProjectReference Include="..\SistVentAN.DTO\SistVentAN.DTO.csproj" />
+    <ProjectReference Include="..\SistVentAN.IOC\SistVentAN.IOC.csproj" />
+  </ItemGroup>
+
 </Project>

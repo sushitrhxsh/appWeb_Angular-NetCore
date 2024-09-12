@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\apisistventan\\SistVentAN.Model\\SistVentAN.Model.csproj": {}
+    "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\apisistventan\\SistVentAN.Model\\SistVentAN.Model.csproj": {
+    "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\apisistventan\\SistVentAN.Model\\SistVentAN.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj",
         "projectName": "SistVentAN.Model",
-        "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\apisistventan\\SistVentAN.Model\\SistVentAN.Model.csproj",
+        "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj",
         "packagesPath": "C:\\Users\\Alex FS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\apisistventan\\SistVentAN.Model\\obj\\",
+        "outputPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex FS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -42,6 +42,18 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

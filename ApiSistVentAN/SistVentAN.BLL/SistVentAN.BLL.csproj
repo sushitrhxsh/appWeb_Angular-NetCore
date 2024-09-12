@@ -1,5 +1,12 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
+  <ItemGroup>
+    <ProjectReference Include="..\SistVentAN.DAL\SistVentAN.DAL.csproj" />
+    <ProjectReference Include="..\SistVentAN.Model\SistVentAN.Model.csproj" />
+    <ProjectReference Include="..\SistVentAN.DTO\SistVentAN.DTO.csproj" />
+    <ProjectReference Include="..\SistVentAN.Utility\SistVentAN.Utility.csproj" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
