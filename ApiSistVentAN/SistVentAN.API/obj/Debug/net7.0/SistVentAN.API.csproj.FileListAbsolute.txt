@@ -82,3 +82,5 @@ C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\sistventan.ap
 C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\sistventan.api\obj\Debug\net7.0\SistVentAN.API.pdb
 C:\Users\Alex FS\Documents\programacion\.net\Angular\APISistVentAN\SistVentAN.API\obj\Debug\net7.0\SistVentAN.API.genruntimeconfig.cache
 C:\Users\Alex FS\Documents\programacion\.net\Angular\APISistVentAN\SistVentAN.API\obj\Debug\net7.0\ref\SistVentAN.API.dll
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.API\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.API\bin\Debug\net7.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

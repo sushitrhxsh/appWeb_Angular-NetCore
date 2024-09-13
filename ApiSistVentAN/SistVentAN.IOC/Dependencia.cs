@@ -10,6 +10,8 @@ using SistVentAN.DAL.DBContext;
 using SistVentAN.DAL.Repositorios.Contrato;
 using SistVentAN.DAL.Repositorios;
 
+using SistVentAN.Utility;
+
 namespace SistVentAN.IOC
 {
     public static class Dependencia
@@ -20,8 +22,10 @@ namespace SistVentAN.IOC
                 options.UseSqlServer(configuration.GetConnectionString("cadenaSQL"));
             });
 
-            services.AddTransient(typeof(IGenericRepository<>),typeof(GenericRepository<>));
-            services.AddScoped<IVentaRepository, VentaRepository>();
+            services.AddTransient(typeof(IGenericRepository<>),typeof(GenericRepository<>));    // SistVentAN.DAL/Repositorios/Contrato/IGenericRepository - SistVentAN.DAL/Repositorios/GenericRepository
+            services.AddScoped<IVentaRepository, VentaRepository>();    // SistVentAN.DAL/Repositorios/Contrato/IVentaRepository- SistVentAN.DAL/Repositorios/VentaRepository
+
+            services.AddAutoMapper(typeof(AutoMapperProfile));  // SistVentAN.Utility/AutoMapperProfile
 
         }
         
