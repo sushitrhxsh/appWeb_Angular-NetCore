@@ -7,6 +7,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using SistVentAN.DAL.DBContext;
 
+using SistVentAN.DAL.Repositorios.Contrato;
+using SistVentAN.DAL.Repositorios;
+
 namespace SistVentAN.IOC
 {
     public static class Dependencia
@@ -16,7 +19,12 @@ namespace SistVentAN.IOC
             services.AddDbContext<DbventAnContext>(options => {
                 options.UseSqlServer(configuration.GetConnectionString("cadenaSQL"));
             });
+
+            services.AddTransient(typeof(IGenericRepository<>),typeof(GenericRepository<>));
+            services.AddScoped<IVentaRepository, VentaRepository>();
+
         }
+        
         
     }
 }

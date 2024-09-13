@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2zc30GTQIjA=",
+  "dgSpecHash": "u4F1qYIOzyo=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\sistventan.api\\SistVentAN.API.csproj",
+  "projectFilePath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.API\\SistVentAN.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex FS\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Alex FS\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
