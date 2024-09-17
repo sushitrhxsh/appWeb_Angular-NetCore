@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistVentAN.DTO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d644cfed7a0e5967d24f73446b02affebbaf34d8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+baca0270c2444d70258d1dab78c0b3e5dd4d090c")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistVentAN.DTO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistVentAN.DTO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj": {}
+    "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj": {
+    "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj",
         "projectName": "SistVentAN.DTO",
-        "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj",
+        "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj",
         "packagesPath": "C:\\Users\\Alex FS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DTO\\obj\\",
+        "outputPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex FS\\AppData\\Roaming\\NuGet\\NuGet.Config"
