@@ -26,8 +26,9 @@ namespace SistVentAN.BLL.Servicios
         {
             try{
                 var listaRoles = await _rolRepository.Consultar();
+                var rolDTOMap = _mapper.Map<List<RolDTO>>(listaRoles.ToList());
 
-                return _mapper.Map<List<RolDTO>>(listaRoles.ToList());
+                return rolDTOMap;
 
             } catch {
                 throw;

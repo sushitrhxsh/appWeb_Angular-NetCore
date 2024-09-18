@@ -28,8 +28,10 @@ namespace SistVentAN.BLL.Servicios
             try{
                 var query = await _productoRepository.Consultar();
                 var listaProducto = query.Include(c => c.IdCategoriaNavigation).ToList();
+                
+                var productoDTOMap = _mapper.Map<List<ProductoDTO>>(listaProducto.ToList());
 
-                return _mapper.Map<List<ProductoDTO>>(listaProducto.ToList());
+                return productoDTOMap;
                 
             } catch {
                 throw;
@@ -45,7 +47,9 @@ namespace SistVentAN.BLL.Servicios
                 if(productoCreado.IdProducto == 0)
                     throw new TaskCanceledException("No se pudo crear");
                 
-                return _mapper.Map<ProductoDTO>(productoCreado);
+                var productoDTOMap = _mapper.Map<ProductoDTO>(productoCreado);
+                
+                return productoDTOMap;
 
             } catch {
                 throw;

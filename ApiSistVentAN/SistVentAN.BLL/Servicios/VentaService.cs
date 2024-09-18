@@ -36,7 +36,9 @@ namespace SistVentAN.BLL.Servicios
                 if(ventaGenerada.IdVenta == 0)
                     throw new TaskCanceledException("No se pudo crear");
                 
-                return _mapper.Map<VentaDTO>(ventaGenerada);
+                var ventaDTOMap = _mapper.Map<VentaDTO>(ventaGenerada);
+                
+                return ventaDTOMap;
 
             } catch {
                 throw;
@@ -68,8 +70,9 @@ namespace SistVentAN.BLL.Servicios
             } catch {
                 throw;
             }
+            var ventaDTOMap = _mapper.Map<List<VentaDTO>>(listaResultado);
 
-            return _mapper.Map<List<VentaDTO>>(listaResultado);
+            return ventaDTOMap;
         }
 
         public async Task<List<ReporteDTO>> Reporte(string fechaInicio, string fechaFinal)
@@ -90,8 +93,9 @@ namespace SistVentAN.BLL.Servicios
             } catch {
                 throw;
             }
+            var reporteDTOMap = _mapper.Map<List<ReporteDTO>>(listaResultado);
 
-            return _mapper.Map<List<ReporteDTO>>(listaResultado);
+            return reporteDTOMap;
         }
 
     }

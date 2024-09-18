@@ -29,7 +29,9 @@ namespace SistVentAN.BLL.Servicios
                 var query = await _usuarioRepository.Consultar();
                 var listaUsuario = query.Include(r => r.IdRolNavigation).ToList(); // r = rol
 
-                return _mapper.Map<List<UsuarioDTO>>(listaUsuario);
+                var usuarioDTOMap = _mapper.Map<List<UsuarioDTO>>(listaUsuario);
+
+                return usuarioDTOMap;
 
             } catch {
                 throw;
@@ -39,14 +41,16 @@ namespace SistVentAN.BLL.Servicios
         public async Task<SesionDTO> ValidarCredenciales(string correo, string clave)
         {
             try{
-                var query = await _usuarioRepository.Consultar(u => u.Correo == correo && u.Clave == clave);
+                var query = await _usuarioRepository.Consultar(u => u.Correo == correo && u.Clave == clave); // u = usuario
                 
                 if(query.FirstOrDefault() == null)
                     throw new TaskCanceledException("El usuario no existe");
                 
                 Usuario devolverUsuario = query.Include(r => r.IdRolNavigation).First();
 
-                return _mapper.Map<SesionDTO>(devolverUsuario);
+                var sesionDTOMap = _mapper.Map<SesionDTO>(devolverUsuario);
+
+                return sesionDTOMap;
 
             } catch {
                 throw;
@@ -66,7 +70,9 @@ namespace SistVentAN.BLL.Servicios
 
                 usuarioCreado = query.Include(r => r.IdRolNavigation).First();
 
-                return _mapper.Map<UsuarioDTO>(usuarioCreado);
+                var usuarioDTOMap = _mapper.Map<UsuarioDTO>(usuarioCreado);
+
+                return usuarioDTOMap;
 
             } catch {
                 throw;

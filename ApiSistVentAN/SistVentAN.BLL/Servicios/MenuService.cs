@@ -41,8 +41,10 @@ namespace SistVentAN.BLL.Servicios
                                                 select m).AsQueryable();
 
                 var listaMenus = tbResultado.ToList();
+                
+                var menuDTOMap = _mapper.Map<List<MenuDTO>>(listaMenus);
 
-                return _mapper.Map<List<MenuDTO>>(listaMenus);
+                return menuDTOMap;
 
             } catch {
                 throw;

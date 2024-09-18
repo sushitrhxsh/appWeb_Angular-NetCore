@@ -44,7 +44,6 @@ namespace SistVentAN.BLL.Servicios
                 var tablaVenta = RetornarVentas(ventaQuery,-7);
 
                 total = tablaVenta.Count();
-                
             } 
 
             return total;
