@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SistVentAN.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+df49a5e6232084cec7b983549690972ef1ec75ca")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+79203faa8f0b897ab49c4c2f8241bde07ecf68b7")]
 [assembly: System.Reflection.AssemblyProductAttribute("SistVentAN.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SistVentAN.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

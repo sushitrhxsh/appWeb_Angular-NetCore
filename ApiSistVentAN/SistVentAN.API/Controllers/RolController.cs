@@ -39,6 +39,5 @@ namespace SistVentAN.API.Controllers
             return Ok(response);
         }
 
-
     }
 }
