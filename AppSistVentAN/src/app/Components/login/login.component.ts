@@ -24,8 +24,8 @@ export class LoginComponent implements OnInit {
     private _utilidadService:UtilidadService
   ) { 
       this.formularioLogin = this.fb.group({
-        email:["",Validators.required],
-        password:["",Validators.required],
+        email:    ["",Validators.required],
+        password: ["",Validators.required],
       });
     }
 
@@ -45,7 +45,6 @@ export class LoginComponent implements OnInit {
         if(data.status){
           this._utilidadService.guardarSesionUsuario(data.value);
           this.router.navigate(["pages"]);
-
         } else {
           this._utilidadService.mostrarAlerta("No se encontraron coincidencias","Opps!");
         }

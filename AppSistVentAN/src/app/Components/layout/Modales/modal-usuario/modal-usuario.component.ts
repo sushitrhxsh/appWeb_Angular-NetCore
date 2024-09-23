@@ -22,8 +22,8 @@ export class ModalUsuarioComponent implements OnInit {
   botonAccion:string = "Guardar";
   listaRoles:Rol[] = [];
 
-  constructor
-  (
+
+  constructor(
     private modalActual:MatDialogRef<ModalUsuarioComponent>,
     @Inject(MAT_DIALOG_DATA) public datosUsuario: Usuario,
     private fb:FormBuilder,

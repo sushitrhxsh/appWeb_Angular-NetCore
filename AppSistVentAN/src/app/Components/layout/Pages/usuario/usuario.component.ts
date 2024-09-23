@@ -22,7 +22,7 @@ export class UsuarioComponent implements OnInit,AfterViewInit {
   dataListaUsuarios = new MatTableDataSource(this.dataInicio);
   @ViewChild(MatPaginator) paginacionTabla!:MatPaginator;
 
-
+  
   constructor(
     private dialog:MatDialog,
     private _usuarioService:UsuarioService,
