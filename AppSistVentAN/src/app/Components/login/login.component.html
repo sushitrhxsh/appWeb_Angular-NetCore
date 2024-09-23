@@ -20,7 +20,6 @@
                     <button mat-icon-button matSuffix (click)="ocultarPassword =! ocultarPassword" type="button">
                         <mat-icon matSuffix>{{ocultarPassword ? 'visibility_off':'visibility'}}</mat-icon>
                     </button>
-                    
                 </mat-form-field>
 
                 <button class="full-width" mat-raised-button color="primary" type="submit" [disabled]="formularioLogin.invalid">Ingresar
@@ -29,10 +28,10 @@
 
             </form>
         </mat-card-content>
+
         <mat-card-footer>
             <mat-progress-bar mode="indeterminate" *ngIf="mostrarLoading"></mat-progress-bar>
         </mat-card-footer>
-
     </mat-card>
 
 </div>
