@@ -77,20 +77,20 @@ export class UsuarioComponent implements OnInit,AfterViewInit {
 
   eliminarUsuario(usuario:Usuario){
     Swal.fire({
-      title: "Deseas eliminar el usuario?",
-      text: usuario.nombreCompleto,
-      icon: "warning",
+      title:              "Deseas eliminar el usuario?",
+      text:               usuario.nombreCompleto,
+      icon:               "warning",
       confirmButtonColor: "#3085d6",
-      confirmButtonText: "Si, Eliminar",
-      showCancelButton: true,
-      cancelButtonColor: "#d33",
-      cancelButtonText: "No, volver"
+      confirmButtonText:  "Si, Eliminar",
+      showCancelButton:   true,
+      cancelButtonColor:  "#d33",
+      cancelButtonText:   "No, volver"
     })
     .then((response) => {
       if(response.isConfirmed)
           this._usuarioService.eliminar(usuario.idUsuario)
           .subscribe({
-            next:(data) =>{
+            next:(data) => {
               if(data.status){
                 this._utilidadService.mostrarAlerta("El usuario fue eliminado","Listo!");
                 this.obtenerUsuarios();

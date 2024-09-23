@@ -74,9 +74,9 @@ export class ModalUsuarioComponent implements OnInit {
       nombreCompleto: this.formularioUsuario.value.nombreCompleto,
       correo:         this.formularioUsuario.value.correo,
       idRol:          this.formularioUsuario.value.idRol,
-      rolDescripcion: "",
+      rolDescripcion: this.formularioUsuario ? "":this.datosUsuario.rolDescripcion,
       clave:          this.formularioUsuario.value.clave,
-      esActivo:parseInt(this.formularioUsuario.value.esActivo)
+      esActivo:       parseInt(this.formularioUsuario.value.esActivo)
     }
 
     if(this.datosUsuario == null){
@@ -87,7 +87,7 @@ export class ModalUsuarioComponent implements OnInit {
             this._utilidadService.mostrarAlerta("El Usuario fue registrado","Exito");
             this.modalActual.close("true");
           } else {
-            this._utilidadService.mostrarAlerta("No se pudo registrar el usuario","Error")
+            this._utilidadService.mostrarAlerta("No se pudo registrar el usuario","Error");
           }
         },
         error:(e) => {}
@@ -100,7 +100,7 @@ export class ModalUsuarioComponent implements OnInit {
             this._utilidadService.mostrarAlerta("El Usuario fue editado","Exito");
             this.modalActual.close("true");
           } else {
-            this._utilidadService.mostrarAlerta("No se pudo editar el usuario","Error")
+            this._utilidadService.mostrarAlerta("No se pudo editar el usuario","Error");
           }
         },
         error:(e) => {}
