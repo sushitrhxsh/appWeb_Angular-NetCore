@@ -2,9 +2,9 @@ import { Component, OnInit, Inject } from '@angular/core';
 
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
+
 import { Rol } from 'src/app/Interfaces/rol';
 import { Usuario } from 'src/app/Interfaces/usuario';
-
 import { RolService } from 'src/app/Services/rol.service';
 import { UsuarioService } from 'src/app/Services/usuario.service';
 import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
@@ -15,7 +15,7 @@ import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
   styleUrls: ['./modal-usuario.component.css']
 })
 export class ModalUsuarioComponent implements OnInit {
-  
+
   formularioUsuario:FormGroup;
   ocultarPassword:boolean = true;
   tituloAccion:string = "Agregar";
@@ -55,6 +55,7 @@ export class ModalUsuarioComponent implements OnInit {
    }
 
   ngOnInit(): void {
+
     if(this.datosUsuario != null) {
       this.formularioUsuario.patchValue({
         nombreCompleto:this.datosUsuario.nombreCompleto,
@@ -63,7 +64,6 @@ export class ModalUsuarioComponent implements OnInit {
         clave:         this.datosUsuario.clave,
         esActivo:      this.datosUsuario.esActivo.toString()
       });
-
     }
 
   }
@@ -80,7 +80,6 @@ export class ModalUsuarioComponent implements OnInit {
     }
 
     if(this.datosUsuario == null){
-
       this._usuarioService.guardar(usuario).subscribe({
         next:(data) => {
           if(data.status){

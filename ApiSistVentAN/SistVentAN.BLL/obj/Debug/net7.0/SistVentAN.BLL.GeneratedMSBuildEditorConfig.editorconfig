@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SistVentAN.BLL
-build_property.ProjectDir = C:\Users\Alex FS\Documents\programacion\.net\Angular\APISistVentAN\SistVentAN.BLL\
+build_property.ProjectDir = C:\Users\Alex FS\Documents\programacion\.net\Angular\ApiSistVentAN\SistVentAN.BLL\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
