@@ -76,19 +76,19 @@ export class VentaComponent implements OnInit {
 
   agregarProductoParaVenta(){
     const cantidad:number = this.formularioProductoVenta.value.cantidad;
-    const precio:number = parseFloat(this.productoSeleccionado.precio);
-    const total:number = cantidad * precio;
-    this.totalPagar = this.totalPagar + total;
+    const precio:number =   parseFloat(this.productoSeleccionado.precio);
+    const total:number =    cantidad * precio;
+    this.totalPagar =       this.totalPagar + total;
 
     this.listaProductosParaVenta.push({ // 20:42 c12
       idProducto:           this.productoSeleccionado.idProducto,
       descripcionProducto:  this.productoSeleccionado.nombre,
       cantidad:             cantidad,
       precioTexto:          String(precio.toFixed(2)),
-      totalTexto:String(total.toFixed(2))
+      totalTexto:           String(total.toFixed(2))
     });
 
-    
+
   }
 
 }
