@@ -21,7 +21,7 @@ namespace SistVentAN.API.Controllers
             _ventaService = ventaService;
         }
 
-        [HttpGet]
+        [HttpPost]
         [Route("Registrar")]
         public async Task<IActionResult> Registrar([FromBody] VentaDTO venta)
         {

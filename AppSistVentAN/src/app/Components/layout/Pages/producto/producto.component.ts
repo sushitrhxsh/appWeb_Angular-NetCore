@@ -19,7 +19,7 @@ export class ProductoComponent implements OnInit, AfterViewInit {
 
   columnasTabla:string[] = ["nombre","categoria","stock","precio","estado","acciones"];
   dataInicio:Producto[] = [];
-  dataListaProductos = new MatTableDataSource(this.dataInicio);
+  dataListaProductos     = new MatTableDataSource(this.dataInicio);
   @ViewChild(MatPaginator) paginacionTabla!:MatPaginator;
 
   constructor(

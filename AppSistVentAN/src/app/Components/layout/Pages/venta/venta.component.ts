@@ -76,9 +76,9 @@ export class VentaComponent implements OnInit {
 
   agregarProductoParaVenta(){
     const cantidad:number = this.formularioProductoVenta.value.cantidad;
-    const precio:number =   parseFloat(this.productoSeleccionado.precio);
-    const total:number =    cantidad * precio;
-    this.totalPagar =       this.totalPagar + total;
+    const precio:number   = parseFloat(this.productoSeleccionado.precio);
+    const total:number    = cantidad * precio;
+    this.totalPagar       = this.totalPagar + total;
 
     this.listaProductosParaVenta.push({ // 20:42 c12
       idProducto:           this.productoSeleccionado.idProducto,
@@ -88,7 +88,55 @@ export class VentaComponent implements OnInit {
       totalTexto:           String(total.toFixed(2))
     });
 
+    this.datosDetalleVenta = new MatTableDataSource(this.listaProductosParaVenta);
+    
+    this.formularioProductoVenta.patchValue({
+      producto:"",
+      cantidad:""
+    });
+  }
 
+  eliminarProducto(detalle:DetalleVenta){
+    this.totalPagar = this.totalPagar - parseFloat(detalle.totalTexto);
+    this.listaProductosParaVenta = this.listaProductosParaVenta.filter(p => p.idProducto != detalle.idProducto);
+
+    this.datosDetalleVenta = new MatTableDataSource(this.listaProductosParaVenta);
+  }
+
+  registrarVenta(){
+    if(this.listaProductosParaVenta.length > 0){
+      this.bloquearBotonRegistrar = true;
+
+      const request: Venta = {
+        tipoPago:     this.tipodePagoPorDefecto,
+        totalTexto:   String(this.totalPagar.toFixed(2)),
+        detalleVenta: this.listaProductosParaVenta
+      }
+
+      this._ventaService.registrar(request).subscribe({
+        next:(response) => {
+          if(response.status){
+            this.totalPagar = 0.00;
+            this.listaProductosParaVenta = [];
+            this.datosDetalleVenta = new MatTableDataSource(this.listaProductosParaVenta);
+
+            Swal.fire({
+              title:  "Venta Registrada",
+              text:   `Numero de venta: ${response.value.numeroDocumento}`,
+              icon:   "success",  
+            });
+
+          } else {
+            this._utilidadService.mostrarAlerta("No se pudo registrar la venta", "Opps!");
+          }
+        },
+        complete:() => {
+          this.bloquearBotonRegistrar = false;
+        },
+        error:(e) => { }
+      });
+
+    }
   }
 
 }
