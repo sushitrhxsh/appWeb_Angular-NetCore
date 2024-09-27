@@ -21,7 +21,7 @@ namespace SistVentAN.API.Controllers
             _ventaService = ventaService;
         }
 
-        [HttpPost]
+        [HttpPost] //HttpPost
         [Route("Registrar")]
         public async Task<IActionResult> Registrar([FromBody] VentaDTO venta)
         {
@@ -39,7 +39,7 @@ namespace SistVentAN.API.Controllers
             return Ok(response);
         }
 
-        [HttpPost]
+        [HttpGet] //HttpPost
         [Route("Historial")] // /{buscarPor:string}/{numeroVenta:int}/{fechaInicio:string}/{fechaFinal:string}
         public async Task<IActionResult> Historial(string buscarPor, string? numeroVenta, string? fechaInicio, string? fechaFinal)
         {

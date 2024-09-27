@@ -13,6 +13,7 @@ import { ReporteComponent } from './Pages/reporte/reporte.component';
 import { SharedModule } from 'src/app/Reutilizable/shared/shared.module';
 import { ModalUsuarioComponent } from './Modales/modal-usuario/modal-usuario.component';
 import { ModalProductoComponent } from './Modales/modal-producto/modal-producto.component';
+import { ModalDetalleVentaComponent } from './Modales/modal-detalle-venta/modal-detalle-venta.component';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import { ModalProductoComponent } from './Modales/modal-producto/modal-producto.
     HistorialVentaComponent,
     ReporteComponent,
     ModalUsuarioComponent,
-    ModalProductoComponent
+    ModalProductoComponent,
+    ModalDetalleVentaComponent
   ],
   imports: [
     CommonModule,

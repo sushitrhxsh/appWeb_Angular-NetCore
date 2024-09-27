@@ -5,7 +5,7 @@
         <mat-grid-list cols="1" rowHeight="80px">
             
             <mat-grid-tile>
-                <mat-form-field apperearance="outline">
+                <mat-form-field appearance="outline">
                     <mat-label>Nombre Producto</mat-label>
                     <input matInput autocomplete="off" formControlName="nombre">
                     <mat-icon matSuffix>fit_screen</mat-icon>
@@ -13,7 +13,7 @@
             </mat-grid-tile>
 
             <mat-grid-tile>
-                <mat-form-field apperearance="outline">
+                <mat-form-field appearance="outline">
                     <mat-label>Categoria</mat-label>
                     <mat-select formControlName="idCategoria">
                         <mat-option *ngFor="let item of listaCategorias" [value]="item.idCategoria">{{item.nombre}}</mat-option>
@@ -22,7 +22,7 @@
             </mat-grid-tile>
 
             <mat-grid-tile>
-                <mat-form-field apperearance="outline">
+                <mat-form-field appearance="outline">
                     <mat-label>Stock</mat-label>
                     <input matInput autocomplete="off" formControlName="stock" type="number">
                     <mat-icon matSuffix>edit_square</mat-icon>
@@ -30,7 +30,7 @@
             </mat-grid-tile>
 
             <mat-grid-tile>
-                <mat-form-field apperearance="outline">
+                <mat-form-field appearance="outline">
                     <mat-label>Precio</mat-label>
                     <input matInput autocomplete="off" formControlName="precio">
                     <mat-icon matSuffix>attach_money</mat-icon>
@@ -38,7 +38,7 @@
             </mat-grid-tile>
 
             <mat-grid-tile>
-                <mat-form-field apperearance="outline">
+                <mat-form-field appearance="outline">
                     <mat-label>Estado</mat-label>
                     <mat-select formControlName="esActivo">
                         <mat-option value="1">Activo</mat-option>

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KzqtgFFYOmE=",
+  "dgSpecHash": "K42XUfUflDY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj",
+  "projectFilePath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex FS\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
     "C:\\Users\\Alex FS\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",

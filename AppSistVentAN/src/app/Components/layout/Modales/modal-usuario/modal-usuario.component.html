@@ -5,7 +5,7 @@
         <mat-grid-list cols="1" rowHeight="80px">
             
             <mat-grid-tile>
-                <mat-form-field apperearance="outline">
+                <mat-form-field appearance="outline">
                     <mat-label>Nombre Completo</mat-label>
                     <input matInput autocomplete="off" formControlName="nombreCompleto">
                     <mat-icon matSuffix>account-box</mat-icon>
@@ -13,7 +13,7 @@
             </mat-grid-tile>
 
             <mat-grid-tile>
-                <mat-form-field apperearance="outline">
+                <mat-form-field appearance="outline">
                     <mat-label>Correo</mat-label>
                     <input matInput autocomplete="off" formControlName="correo">
                     <mat-icon matSuffix>mail</mat-icon>
@@ -21,7 +21,7 @@
             </mat-grid-tile>
 
             <mat-grid-tile>
-                <mat-form-field apperearance="outline">
+                <mat-form-field appearance="outline">
                     <mat-label>Rol</mat-label>
                     <mat-select formControlName="idRol">
                         <mat-option *ngFor="let item of listaRoles" [value]="item.idRol">{{item.nombre}}</mat-option>
@@ -40,7 +40,7 @@
             </mat-grid-tile>
 
             <mat-grid-tile>
-                <mat-form-field apperearance="outline">
+                <mat-form-field appearance="outline">
                     <mat-label>Estado</mat-label>
                     <mat-select formControlName="esActivo">
                         <mat-option value="1">Activo</mat-option>
