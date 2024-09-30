@@ -3338,11 +3338,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj",
+      "projectUniqueName": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj",
       "projectName": "SistVentAN.IOC",
-      "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj",
+      "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj",
       "packagesPath": "C:\\Users\\Alex FS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.IOC\\obj\\",
+      "outputPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.IOC\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alex FS\\AppData\\Roaming\\NuGet\\NuGet.Config"
