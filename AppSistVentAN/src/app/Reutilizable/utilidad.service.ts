@@ -29,7 +29,7 @@ export class UtilidadService {
     return usuario
   }
 
-  eliminarSesionUusuario(){
+  eliminarSesionUsuario(){
     localStorage.removeItem("usuario");
   }
 
