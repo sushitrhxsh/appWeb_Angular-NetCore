@@ -29,11 +29,11 @@
               "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.BLL\\SistVentAN.BLL.csproj": {
                 "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.BLL\\SistVentAN.BLL.csproj"
               },
-              "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj": {
-                "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj"
+              "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj": {
+                "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj"
               },
-              "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj": {
-                "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj"
+              "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj": {
+                "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj"
               }
             }
           }
@@ -110,11 +110,11 @@
               "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DAL\\SistVentAN.DAL.csproj": {
                 "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DAL\\SistVentAN.DAL.csproj"
               },
-              "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj": {
-                "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj"
+              "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj": {
+                "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj"
               },
-              "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj": {
-                "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj"
+              "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj": {
+                "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj"
               },
               "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.Utility\\SistVentAN.Utility.csproj": {
                 "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.Utility\\SistVentAN.Utility.csproj"
@@ -178,8 +178,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj": {
-                "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj"
+              "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj": {
+                "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj"
               }
             }
           }
@@ -218,14 +218,14 @@
         }
       }
     },
-    "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj": {
+    "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj",
         "projectName": "SistVentAN.DTO",
-        "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj",
+        "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj",
         "packagesPath": "C:\\Users\\Alex FS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DTO\\obj\\",
+        "outputPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex FS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -276,14 +276,14 @@
         }
       }
     },
-    "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj": {
+    "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj",
+        "projectUniqueName": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj",
         "projectName": "SistVentAN.IOC",
-        "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj",
+        "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.IOC\\SistVentAN.IOC.csproj",
         "packagesPath": "C:\\Users\\Alex FS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.IOC\\obj\\",
+        "outputPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.IOC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex FS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -344,14 +344,14 @@
         }
       }
     },
-    "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj": {
+    "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj",
+        "projectUniqueName": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj",
         "projectName": "SistVentAN.Model",
-        "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj",
+        "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj",
         "packagesPath": "C:\\Users\\Alex FS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.Model\\obj\\",
+        "outputPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Alex FS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -436,11 +436,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj": {
-                "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj"
+              "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj": {
+                "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DTO\\SistVentAN.DTO.csproj"
               },
-              "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj": {
-                "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj"
+              "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj": {
+                "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Model\\SistVentAN.Model.csproj"
               }
             }
           }
