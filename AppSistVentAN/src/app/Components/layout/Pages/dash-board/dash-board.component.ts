@@ -4,7 +4,6 @@ import { Chart,registerables } from 'chart.js';
 import { DashBoardService } from 'src/app/Services/dash-board.service';
 Chart.register(...registerables);
 
-
 @Component({
   selector: 'app-dash-board',
   templateUrl: './dash-board.component.html',
@@ -12,9 +11,9 @@ Chart.register(...registerables);
 })
 export class DashBoardComponent implements OnInit {
 
-  totalIngresos:string  = "0";
-  totalVentas:string    = "0";
-  totalProductos:string = "0";
+  totalIngresos:  string = "0";
+  totalVentas:    string = "0";
+  totalProductos: string = "0";
   
 
   constructor(

@@ -13,12 +13,12 @@ import { DetalleVenta } from 'src/app/Interfaces/detalle-venta';
 })
 export class ModalDetalleVentaComponent implements OnInit {
 
-  fechaRegistro:string = "";
-  numeroDocumento:string = "";
-  tipoPago:string = "";
-  total:string = "";
-  detalleVenta:DetalleVenta[] = [];
-  columnasTabla:string[] = ['producto','cantidad','precio','total'];
+  fechaRegistro:   string = "";
+  numeroDocumento: string = "";
+  tipoPago:        string = "";
+  total:           string = "";
+  detalleVenta:    DetalleVenta[] = [];
+  columnasTabla:   string[] = ['producto','cantidad','precio','total'];
 
 
   constructor(

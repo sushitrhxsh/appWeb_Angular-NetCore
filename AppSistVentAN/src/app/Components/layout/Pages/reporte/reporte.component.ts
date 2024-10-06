@@ -11,14 +11,13 @@ import { Reporte } from 'src/app/Interfaces/reporte';
 import { VentaService } from 'src/app/Services/venta.service';
 import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
 
-
 export const MY_DATA_FORMATS = {
   parse:{
-    dateInput:"DD/MM/YYYY"
+    dateInput: "DD/MM/YYYY"
   },
   display:{
-    dateInput:"DD/MM/YYYY",
-    monthYearLabel:"MMMMM YYYY"
+    dateInput:      "DD/MM/YYYY",
+    monthYearLabel: "MMMMM YYYY"
   }
 }
 
@@ -32,9 +31,9 @@ export const MY_DATA_FORMATS = {
 })
 export class ReporteComponent implements OnInit {
 
-  formularioFiltro:FormGroup;
-  listaVentasReporte:Reporte[] = [];
-  columnasTabla:string[] = ["fechaRegistro","numeroVenta","tipoPago","total","producto","cantidad","precio","totalProducto"];
+  formularioFiltro:   FormGroup;
+  listaVentasReporte: Reporte[] = [];
+  columnasTabla:      string[] = ["fechaRegistro","numeroVenta","tipoPago","total","producto","cantidad","precio","totalProducto"];
   datosVentaReporte = new MatTableDataSource(this.listaVentasReporte);
   @ViewChild(MatPaginator) paginacionTabla!:MatPaginator;
 

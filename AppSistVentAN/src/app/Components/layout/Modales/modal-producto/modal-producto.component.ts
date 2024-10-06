@@ -16,10 +16,10 @@ import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
 })
 export class ModalProductoComponent implements OnInit {
 
-  formularioProducto:FormGroup;
-  tituloAccion:string = "Agregar";
-  botonAccion:string = "Guardar";
-  listaCategorias:Categoria[] = [];
+  formularioProducto: FormGroup;
+  tituloAccion:       string = "Agregar";
+  botonAccion:        string = "Guardar";
+  listaCategorias:    Categoria[] = [];
 
   
   constructor(

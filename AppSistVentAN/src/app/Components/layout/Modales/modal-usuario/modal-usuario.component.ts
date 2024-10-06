@@ -16,11 +16,11 @@ import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
 })
 export class ModalUsuarioComponent implements OnInit {
 
-  formularioUsuario:FormGroup;
-  ocultarPassword:boolean = true;
-  tituloAccion:string = "Agregar";
-  botonAccion:string = "Guardar";
-  listaRoles:Rol[] = [];
+  formularioUsuario: FormGroup;
+  ocultarPassword:   boolean = true;
+  tituloAccion:      string = "Agregar";
+  botonAccion:       string = "Guardar";
+  listaRoles:        Rol[] = [];
 
 
   constructor(

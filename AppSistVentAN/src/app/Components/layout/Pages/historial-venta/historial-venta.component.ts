@@ -12,7 +12,6 @@ import { Venta } from 'src/app/Interfaces/venta';
 import { VentaService } from 'src/app/Services/venta.service';
 import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
 
-
 export const MY_DATA_FORMATS = {
   parse:{
     dateInput:"DD/MM/YYYY"
@@ -33,13 +32,13 @@ export const MY_DATA_FORMATS = {
 })
 export class HistorialVentaComponent implements OnInit,AfterViewInit {
 
-  formularioBusqueda:FormGroup;
-  opcionesBusqueda:any[] = [
+  formularioBusqueda: FormGroup;
+  opcionesBusqueda:   any[] = [
     { value:"fecha",  descripcion:"Por fechas" },
     { value:"numero", descripcion:"Numero Venta" }
   ];
-  columnasTabla:string[] = ["fechaRegistro","numeroDocumento","tipoPago","total","accion"];
-  dataInicio:Venta[] = [];
+  columnasTabla:      string[] = ["fechaRegistro","numeroDocumento","tipoPago","total","accion"];
+  dataInicio:         Venta[] = [];
   datosListaVenta = new MatTableDataSource(this.dataInicio);
   @ViewChild(MatPaginator) paginacionTabla!:MatPaginator;
 

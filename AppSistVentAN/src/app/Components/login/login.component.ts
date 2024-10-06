@@ -13,9 +13,10 @@ import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
 })
 export class LoginComponent implements OnInit {
 
-  formularioLogin:FormGroup;
-  ocultarPassword:boolean = true;
-  mostrarLoading:boolean = false;
+  formularioLogin: FormGroup;
+  ocultarPassword: boolean = true;
+  mostrarLoading:  boolean = false;
+
 
   constructor(
     private fb:FormBuilder, 
@@ -58,6 +59,5 @@ export class LoginComponent implements OnInit {
     })
 
   }
-
 
 }

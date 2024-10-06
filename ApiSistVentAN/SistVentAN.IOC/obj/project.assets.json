@@ -3357,14 +3357,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.BLL\\SistVentAN.BLL.csproj": {
-              "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.BLL\\SistVentAN.BLL.csproj"
+            "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.BLL\\SistVentAN.BLL.csproj": {
+              "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.BLL\\SistVentAN.BLL.csproj"
             },
-            "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DAL\\SistVentAN.DAL.csproj": {
-              "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.DAL\\SistVentAN.DAL.csproj"
+            "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DAL\\SistVentAN.DAL.csproj": {
+              "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.DAL\\SistVentAN.DAL.csproj"
             },
-            "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.Utility\\SistVentAN.Utility.csproj": {
-              "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\ApiSistVentAN\\SistVentAN.Utility\\SistVentAN.Utility.csproj"
+            "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Utility\\SistVentAN.Utility.csproj": {
+              "projectPath": "C:\\Users\\Alex FS\\Documents\\programacion\\.net\\Angular\\APISistVentAN\\SistVentAN.Utility\\SistVentAN.Utility.csproj"
             }
           }
         }

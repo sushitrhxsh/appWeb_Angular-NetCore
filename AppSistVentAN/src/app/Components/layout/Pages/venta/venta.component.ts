@@ -18,13 +18,13 @@ import Swal from 'sweetalert2';
 })
 export class VentaComponent implements OnInit {
 
-  listaProductos:Producto[] = [];
-  listaProductosFiltro:Producto[] = [];
+  listaProductos:         Producto[] = [];
+  listaProductosFiltro:   Producto[] = [];
   listaProductosParaVenta:DetalleVenta[] = [];
-  bloquearBotonRegistrar:boolean = false;
-  productoSeleccionado!:Producto;
-  tipodePagoPorDefecto:string = "Efectivo";
-  totalPagar: number = 0;
+  bloquearBotonRegistrar: boolean = false;
+  productoSeleccionado!:  Producto;
+  tipodePagoPorDefecto:   string = "Efectivo";
+  totalPagar:             number = 0;
 
   formularioProductoVenta:FormGroup;
   columnasTabla:string[] = ["producto","cantidad","precio","total","accion"];

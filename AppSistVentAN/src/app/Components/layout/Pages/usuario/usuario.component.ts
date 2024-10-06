@@ -17,9 +17,9 @@ import Swal from 'sweetalert2';
 })
 export class UsuarioComponent implements OnInit,AfterViewInit {
 
-  columnasTabla:string[] = ["nombreCompleto","correo","rolDescripcion","estado","acciones"];
-  dataInicio:Usuario[] = [];
-  dataListaUsuarios      = new MatTableDataSource(this.dataInicio);
+  columnasTabla:  string[] = ["nombreCompleto","correo","rolDescripcion","estado","acciones"];
+  dataInicio:     Usuario[] = [];
+  dataListaUsuarios = new MatTableDataSource(this.dataInicio);
   @ViewChild(MatPaginator) paginacionTabla!:MatPaginator;
 
   
